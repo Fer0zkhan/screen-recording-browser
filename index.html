@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <p>Screen Recorder
+    </p>
+    <br>
+    <div class="left">
+        <div id="startButton" class="button">
+            Start
+        </div>
+        <h2>Preview</h2>
+        <video id="preview" width="660" height="520" autoplay muted></video>
+    </div>
+    <br>
+    <div class="right">
+        <div id="stopButton" class="button">
+            Stop
+        </div>
+        <h2>Recording</h2>
+        <video id="recording" width="660" height="520" controls></video>
+        <a id="downloadButton" class="button">
+         Download
+       </a>
+    </div>
+    <div class="bottom">
+        <pre id="log"></pre>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
